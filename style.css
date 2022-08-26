@@ -49,7 +49,7 @@ body {
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 .hero {
-    margin-top: 150px;
+    margin-top: 210px;
     padding: 15px;
     display: flex;
     align-items: center;
@@ -64,8 +64,8 @@ body {
 }
 
 .social-links a {
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     text-align: center;
     text-decoration: none;
     color: #000;
@@ -78,8 +78,8 @@ body {
 }
 
 .social-links a .fab {
-    font-size: 30px;
-    line-height: 80px;
+    font-size: 25px;
+    line-height: 60px;
     position: relative;
     z-index: 10;
     transition: color 0.5s;
@@ -109,3 +109,27 @@ body {
     transform: translateY(-10px);
 }
 
+@media only screen and (max-width: 600px) {
+    .clock {
+        font-size: 30px;
+    }
+
+    .hero {
+        margin-top: 250px;
+    }
+
+    .social-links a {
+        width: 50px;
+        height: 50px;
+    }
+
+    .social-links a .fab {
+        position: relative;
+        font-size: 20px;
+        line-height: 60px;
+    }
+
+    p {
+        font-size: 10px;
+    }
+}
