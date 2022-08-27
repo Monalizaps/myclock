@@ -26,7 +26,7 @@ function mostrarHora() {
     var currentTime = new Date().getHours();
     if (6 <= currentTime && currentTime < 12) {
 
-        document.body.style.backgroundImage = "url('https://rare-gallery.com/mocahbig/56714-MinimalistArtistic-Landscape-4k-Ultra-HD-Wallpaper.jpg')";
+        document.body.style.backgroundImage = "url('https://wi.wallpapertip.com/wsimgs/78-786329_google-desktop-backgrounds.jpg')";
         document.body.classList.add("planoFundo1");
 
 
